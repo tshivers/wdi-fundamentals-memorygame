@@ -1,19 +1,9 @@
-var cards = ["queen", "queen", "king", "king"]
-var cardsInPlay = [];
+// Create variables to store each cards
+var cardOne = 'queen';
+var cardTwo = 'queen';
+var cardThree = 'king';
+var cardFour = 'king';
 
-var cardOne = cards[0];
-cardsInPlay.push(cardOne);
-console.log("User flipped queen")
-// verified this function works
-
-var cardTwo = cards[2];
-cardsInPlay.push(cardTwo);
-console.log("User flipped king")
-// verified this function works
-
-if (cardsInPlay.length === 2 && cardsInPlay[0] === cardsInPlay[1]) {
-  alert("You found a match");
-} else {
-  alert ("Sorry, try again.");
-  // verified this function works
-}
+// Use console.log to display the cards user flipped
+console.log("User flipped " + cardOne);
+console.log("User flipped " + cardFour);
